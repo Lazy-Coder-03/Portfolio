@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    !<script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <title>Lazy Coder Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            position: relative;
+        }
+
+        canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        li {
+            margin: 0 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        section {
+            background-color: rgba(0, 0, 0, 0.7);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: left;
+            position: relative;
+            z-index: 1;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- p5.js canvas for the background -->
+    <script src="bg.js"></script>
+
+    <header>
+        <h1>Lazy Coder Portfolio</h1>
+        <p>Web Developer & Animator</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#animations">Animations</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div id="github-projects">
+            <!-- Your GitHub projects will be displayed here -->
+        </div>
+    </section>
+
+    <section id="animations">
+        <h2>Blender Animations</h2>
+        <div id="blender-animations">
+        </div>
+    </section>
+
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>Hello, I'm Sayantan Ghosh, also known as Lazy Coder. I'm a 20-year-old student hailing from India. I'm a self-taught enthusiast with a passion for web development and 3D animation. My journey into the world of technology and creativity has been a fascinating one, and I'm eager to share more about my interests and aspirations.</p>
+        <br>
+        <p>I am currently studying for a Bachelor of Science (BSc) in Computer Science with Honors. My academic journey is a significant complement to my passion for technology, as it provides me with a solid foundation in computer science, programming, and other relevant skills.</p>
+        <br>       
+        <p>As a self-taught web developer, I've delved into various web technologies, seeking to create interactive and visually engaging online experiences. One of my current focuses is p5.js, a JavaScript library that allows for creative coding and the development of visually stunning web applications. I enjoy exploring its capabilities to bring my ideas to life on the web.</p>
+        <br>      
+        <p>In addition to web development, I have a keen interest in 3D animation. Blender, a powerful open-source 3D modeling and animation software, has captured my attention. I'm dedicated to honing my skills in Blender to create captivating 3D animations and visual effects.</p>
+        <br>     
+        <p>My creative journey doesn't stop there. I also find myself drawn to graphic design and UI/UX design. These fields provide an exciting opportunity to combine aesthetics with functionality, and I aspire to craft user-friendly and visually appealing digital interfaces.</p>
+        <br>      
+        <p>Beyond my academic commitments and creative interests, I immerse myself in the world of game development. Unity and Godot, both powerful game engines, are my playgrounds for creating immersive and entertaining games. Game development is not only a hobby but also a challenging and rewarding experience that fuels my passion for technology and storytelling.</p>
+        <br>     
+        <p>I also have a special fondness for animation, particularly using p5.js, which is a JavaScript library known for its simplicity and expressiveness. It's a versatile tool that allows me to create unique and interactive animations, further showcasing my creative abilities.</p>
+        <br>        
+        <p>In summary, my journey as a self-taught web developer, 3D animator, and designer is an ongoing adventure filled with exciting challenges and opportunities. I am dedicated to learning, exploring, and pushing the boundaries of my creativity while pursuing my Computer Science BSc Hons degree. I look forward to sharing my future projects and the knowledge I gain along the way with the world.</p>
+    </section>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>3D Animation</li>
+            <li>Front-End Development</li>
+            <li>Back-End Development</li>
+            <li>Graphic Design</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contacts Information</h2>
+        
+        
+        <ul>
+            <li>
+                <!-- Email icon -->
+                <a href="mailto:ghosh2003sayantan@gmail.com" target = "_blank"><i class="far fa-envelope"></i></a>
+            </li>
+            <li>
+                <!-- LinkedIn icon -->
+                <a href="https://www.linkedin.com/in/sayantan-ghosh-9b9b06219" target = "_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+                <!-- GitHub icon -->
+                <a href="https://github.com/lazy-coder-03" target = "_blank"><i class="fab fa-github"></i></a>
+            </li>
+            <li>
+                <!-- Instagram icon -->
+                <a href="https://www.instagram.com/__lazy_coder__" target = "_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <!-- Twitter icon -->
+                <a href="https://twitter.com/Sayantan2003" target = "_blank"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+                <!-- reddit -->
+                <a href="https://www.reddit.com/user/Global_Problem6411/" target = "_blank"><i class="fab fa-reddit"></i></a>
+            <!-- Add more social media or contact links as needed with appropriate icons -->
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; Lazy-Coder <span id="current-year"></span></p>
+    </footer>
+    
+    <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+    
+        // Set the current year in the element
+        document.getElementById("current-year").textContent = currentYear;
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
