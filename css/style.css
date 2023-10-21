@@ -173,6 +173,41 @@ footer a:hover {
     text-decoration: underline;
     opacity: 1;
 }
+/* Existing styles here... */
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+    header {
+        padding: 10px; /* Reduce header padding for smaller screens */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack navigation items vertically for smaller screens */
+        padding: 0; /* Remove padding from navigation items */
+    }
+
+    nav li {
+        margin: 10px 0; /* Add margin to separate navigation items */
+    }
+
+    .project-card {
+        width: 90%; /* Adjust card width for smaller screens */
+        margin: 10px auto; /* Center-align project cards */
+    }
+
+    section {
+        padding: 10px; /* Reduce section padding for smaller screens */
+        margin: 10px;
+    }
+
+    #github-projects {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust project card columns */
+    }
+
+    #blender-animations .video-container {
+        width: 100%; /* Adjust the width to fill the screen width */
+    }
+}
 
 
 /* Customize other styles as needed */
