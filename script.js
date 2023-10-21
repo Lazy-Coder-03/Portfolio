@@ -38,7 +38,7 @@ function createProjectCard(project) {
     const githubLink = createLink("GitHub Repo", project.githubLink);
     const visitLink = createLink("Visit Project", project.visitLink);
 
-    const image = createImg(project.imageURL, project.name);
+    const image = createIm(project.imageURL, project.name);
 
     card.appendChild(title);
     card.appendChild(descriptionDiv);
@@ -57,7 +57,7 @@ function createLink(text, link) {
     return anchor;
 }
 
-function createImg(imageURL, altText) {
+function createIm(imageURL, altText) {
     const image = document.createElement("img");
     image.src = imageURL;
     image.alt = altText;
