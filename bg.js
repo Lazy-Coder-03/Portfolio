@@ -1,7 +1,7 @@
 let particles = [];
 
 function setup() {
-    let n=2000;
+    let n=1000;
     
     createCanvas(windowWidth, windowHeight);
     if(windowWidth<768) n=600;
@@ -42,10 +42,23 @@ class Particle {
         this.r = random(255);
         this.g = random(255);
         this.b = random(255);
+        this.age = random(1,1200) //
     }
 
     applyForce(force) {
         this.acc.add(force);
+    }
+    reset() {
+        this.pos.x = random(width);
+        this.pos.y = random(height);
+        this.age = random(1,1200);
+        this.r = random(255);
+        this.g = random(255);
+        this.b = random(255);
+        this.vel = createVector();
+        this.acc = createVector();
+        this.size = random(2, 10);
+
     }
 
     update() {
@@ -53,6 +66,10 @@ class Particle {
         this.vel.limit(5); // Limit the particle's speed
         this.pos.add(this.vel);
         this.acc.mult(0);
+        this.age--;
+        if(this.age<0) {
+            this.reset(); 
+        }
         // if (this.pos.x < 0 || this.pos.x > width) {
         //     this.vel.x *= -1;
         // }

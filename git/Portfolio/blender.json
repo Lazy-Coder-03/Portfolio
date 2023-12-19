@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Soft Body Tetris",
+        "videoSource": "blender/soft-body-tetris.mp4"
+    },
+    {
+        "name": "Slinky",
+        "videoSource": "blender/slinky.mp4"
+    },
+    {
+        "name":"Card Shuffling",
+        "videoSource": "blender/cards.mp4"
+    },
+    {
+        "name":"Banana Cutter",
+        "videoSource": "blender/banana.mp4"
+    },
+    {
+        "name":"Photo Realistic Rain",
+        "videoSource": "blender/rain.mp4"
+    },
+    {
+        "name":"Pendulum Harmonographs",
+        "videoSource": "blender/pendulum.mp4"
+    },
+    {
+        "name":"Donut",
+        "videoSource": "blender/donut.mp4"
+    },
+    {
+        "name":"Satisfying Pendulums",
+        "videoSource": "blender/satisfying.mp4"
+    }
+]
