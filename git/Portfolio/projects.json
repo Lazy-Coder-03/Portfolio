@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Snake Game",
+    "description": "A classic Snake game implemented in JavaScript. Enjoy the nostalgia of the iconic Snake game as you control the snake to collect food and grow while avoiding collisions.",
+    "githubLink": "https://github.com/Lazy-Coder-03/Snake-Game-browser",
+    "visitLink": "https://lazy-coder-03.github.io/Snake-Game-browser/",
+    "imageURL": "images/snake_game.png"
+  },
+  {
+    "name": "Text to Binary to Image Encrypter/Decrypter",
+    "description": "A web-based tool for encrypting and decrypting messages using binary data and images.",
+    "githubLink": "https://github.com/Lazy-Coder-03/Text-binary-image-Encrypt_decrypt",
+    "visitLink": "https://lazy-coder-03.github.io/Text-binary-image-Encrypt_decrypt/",
+    "imageURL": "images/string_bin.png"
+  },
+  {
+    "name": "Flappy Bird on Neural Network",
+    "description": "Experience the popular Flappy Bird game, but with a neural network playing it! See how well the neural network-controlled bird can perform.",
+    "githubLink": "https://github.com/Lazy-Coder-03/Flappy-Birds-AI",
+    "visitLink": "https://lazy-coder-03.github.io/Flappy-Birds-AI/",
+    "imageURL": "images/flappy-ai.png"
+  },
+  {
+    "name": "PolyRhythm visualizer",
+    "description": "Visualize polyrhythms using p5.js. Explore rhythmic patterns and music with this creative tool.",
+    "githubLink": "https://github.com/Lazy-Coder-03/polyRhythm",
+    "visitLink": "https://lazy-coder-03.github.io/polyRhythm/",
+    "imageURL": "images/polyrythm.png"
+  },
+  {
+    "name": "Autonomous Car using Neural Network",
+    "description": "An autonomous car simulation using JavaScript, where self-driving cars evolve, learn, and navigate multi-lane roads while avoiding obstacles and traffic.",
+    "githubLink": "https://github.com/Lazy-Coder-03/AI-Car-browser",
+    "visitLink": "https://lazy-coder-03.github.io/AI-Car-browser/",
+    "imageURL": "images/aicar.png"
+  },
+  {
+    "name": "Auto-Boid Simulation",
+    "description": "An interactive simulation featuring a flock of autonomous agents and food sources, where agents evolve and learn to seek food, reproduce, and navigate within the environment. Users can control the simulation's population, speed, and debugging options to observe agent behavior.",
+    "githubLink": "https://github.com/Lazy-Coder-03/auto-boids",
+    "visitLink": "https://lazy-coder-03.github.io/auto-boids/",
+    "imageURL": "images/autoboid.png"
+  },
+  {
+    "name": "Sorting Visualizer",
+    "description": "A web-based tool for visualizing sorting algorithms. Users can select from a variety of sorting algorithms and observe the algorithm's behavior in real-time.",
+    "githubLink": "https://github.com/Lazy-Coder-03/Sorting-Algorithms-Visualization",
+    "visitLink": "https://lazy-coder-03.github.io/Sorting-Algorithms-Visualization/",
+    "imageURL": "images/sorting.png"
+  },
+  {
+    "name": "Browser based Clock",
+    "description": "A simple clock implemented in JavaScript. Users can select from a variety of clock styles and observe the clock's behavior in real-time.",
+    "githubLink": "https://github.com/Lazy-Coder-03/Browser-Clock",
+    "visitLink": "https://lazy-coder-03.github.io/Browser-Clock/",
+    "imageURL": "images/clock.png"
+  },
+  {
+    "name":"Slider Puzzle",
+    "description":"A classic slider puzzle implemented in JavaScript. Users can select from a variety of puzzle sizes and observe the puzzle's behavior in real-time.",
+    "githubLink":"https://github.com/Lazy-Coder-03/Slider-Puzzle",
+    "visitLink":"https://lazy-coder-03.github.io/Slider-Puzzle/",
+    "imageURL":"images/slider.png"
+  }
+
+]
